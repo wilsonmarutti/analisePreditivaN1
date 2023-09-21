@@ -9,7 +9,6 @@ client = MongoClient("mongodb+srv://wilsonmarutti:6S0oLpmf8IchaNlm@cluster0.uvdv
 db = client.get_database('Cluster0')
 collection = db.mycollection
 
-# Obter dados de pacientes
 dados = list(collection.find())
 
 # Converter dados para DataFrame

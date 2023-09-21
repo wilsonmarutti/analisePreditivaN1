@@ -33,13 +33,11 @@ if __name__ == '__main__':
 
     num_registros = 500
 
-    # Lista para armazenar os registros de pacientes
     data_to_insert = []
 
-    # Gerar registros aleatórios usando um loop for
     for i in range(num_registros):
-        paciente = gerar_dados_ficticios()
-        data_to_insert.append(paciente)
+        funcionario = gerar_dados_ficticios()
+        data_to_insert.append(funcionario)
 
 
     # Inserir dados na coleção
